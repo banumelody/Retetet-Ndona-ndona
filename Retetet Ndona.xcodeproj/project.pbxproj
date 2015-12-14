@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45FDB43C1C1EFA7700BC0F84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FDB43B1C1EFA7700BC0F84 /* AppDelegate.swift */; };
+		45FDB43E1C1EFA7700BC0F84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FDB43D1C1EFA7700BC0F84 /* ViewController.swift */; };
+		45FDB4411C1EFA7700BC0F84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45FDB43F1C1EFA7700BC0F84 /* Main.storyboard */; };
+		45FDB4441C1EFA7700BC0F84 /* Retetet_Ndona.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 45FDB4421C1EFA7700BC0F84 /* Retetet_Ndona.xcdatamodeld */; };
+		45FDB4461C1EFA7700BC0F84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45FDB4451C1EFA7700BC0F84 /* Assets.xcassets */; };
+		45FDB4491C1EFA7700BC0F84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45FDB4471C1EFA7700BC0F84 /* LaunchScreen.storyboard */; };
+		45FDB4541C1EFA7700BC0F84 /* Retetet_NdonaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FDB4531C1EFA7700BC0F84 /* Retetet_NdonaTests.swift */; };
+		45FDB45F1C1EFA7700BC0F84 /* Retetet_NdonaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FDB45E1C1EFA7700BC0F84 /* Retetet_NdonaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45FDB4501C1EFA7700BC0F84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45FDB4301C1EFA7600BC0F84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45FDB4371C1EFA7700BC0F84;
+			remoteInfo = "Retetet Ndona";
+		};
+		45FDB45B1C1EFA7700BC0F84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45FDB4301C1EFA7600BC0F84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45FDB4371C1EFA7700BC0F84;
+			remoteInfo = "Retetet Ndona";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45FDB4381C1EFA7700BC0F84 /* Retetet Ndona.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Retetet Ndona.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45FDB43B1C1EFA7700BC0F84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		45FDB43D1C1EFA7700BC0F84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		45FDB4401C1EFA7700BC0F84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45FDB4431C1EFA7700BC0F84 /* Retetet_Ndona.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Retetet_Ndona.xcdatamodel; sourceTree = "<group>"; };
+		45FDB4451C1EFA7700BC0F84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45FDB4481C1EFA7700BC0F84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45FDB44A1C1EFA7700BC0F84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45FDB44F1C1EFA7700BC0F84 /* Retetet NdonaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Retetet NdonaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45FDB4531C1EFA7700BC0F84 /* Retetet_NdonaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Retetet_NdonaTests.swift; sourceTree = "<group>"; };
+		45FDB4551C1EFA7700BC0F84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45FDB45A1C1EFA7700BC0F84 /* Retetet NdonaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Retetet NdonaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45FDB45E1C1EFA7700BC0F84 /* Retetet_NdonaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Retetet_NdonaUITests.swift; sourceTree = "<group>"; };
+		45FDB4601C1EFA7700BC0F84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45FDB4351C1EFA7700BC0F84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45FDB44C1C1EFA7700BC0F84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45FDB4571C1EFA7700BC0F84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45FDB42F1C1EFA7600BC0F84 = {
+			isa = PBXGroup;
+			children = (
+				45FDB43A1C1EFA7700BC0F84 /* Retetet Ndona */,
+				45FDB4521C1EFA7700BC0F84 /* Retetet NdonaTests */,
+				45FDB45D1C1EFA7700BC0F84 /* Retetet NdonaUITests */,
+				45FDB4391C1EFA7700BC0F84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45FDB4391C1EFA7700BC0F84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45FDB4381C1EFA7700BC0F84 /* Retetet Ndona.app */,
+				45FDB44F1C1EFA7700BC0F84 /* Retetet NdonaTests.xctest */,
+				45FDB45A1C1EFA7700BC0F84 /* Retetet NdonaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45FDB43A1C1EFA7700BC0F84 /* Retetet Ndona */ = {
+			isa = PBXGroup;
+			children = (
+				45FDB43B1C1EFA7700BC0F84 /* AppDelegate.swift */,
+				45FDB43D1C1EFA7700BC0F84 /* ViewController.swift */,
+				45FDB43F1C1EFA7700BC0F84 /* Main.storyboard */,
+				45FDB4451C1EFA7700BC0F84 /* Assets.xcassets */,
+				45FDB4471C1EFA7700BC0F84 /* LaunchScreen.storyboard */,
+				45FDB44A1C1EFA7700BC0F84 /* Info.plist */,
+				45FDB4421C1EFA7700BC0F84 /* Retetet_Ndona.xcdatamodeld */,
+			);
+			path = "Retetet Ndona";
+			sourceTree = "<group>";
+		};
+		45FDB4521C1EFA7700BC0F84 /* Retetet NdonaTests */ = {
+			isa = PBXGroup;
+			children = (
+				45FDB4531C1EFA7700BC0F84 /* Retetet_NdonaTests.swift */,
+				45FDB4551C1EFA7700BC0F84 /* Info.plist */,
+			);
+			path = "Retetet NdonaTests";
+			sourceTree = "<group>";
+		};
+		45FDB45D1C1EFA7700BC0F84 /* Retetet NdonaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				45FDB45E1C1EFA7700BC0F84 /* Retetet_NdonaUITests.swift */,
+				45FDB4601C1EFA7700BC0F84 /* Info.plist */,
+			);
+			path = "Retetet NdonaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45FDB4371C1EFA7700BC0F84 /* Retetet Ndona */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45FDB4631C1EFA7700BC0F84 /* Build configuration list for PBXNativeTarget "Retetet Ndona" */;
+			buildPhases = (
+				45FDB4341C1EFA7700BC0F84 /* Sources */,
+				45FDB4351C1EFA7700BC0F84 /* Frameworks */,
+				45FDB4361C1EFA7700BC0F84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Retetet Ndona";
+			productName = "Retetet Ndona";
+			productReference = 45FDB4381C1EFA7700BC0F84 /* Retetet Ndona.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45FDB44E1C1EFA7700BC0F84 /* Retetet NdonaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45FDB4661C1EFA7700BC0F84 /* Build configuration list for PBXNativeTarget "Retetet NdonaTests" */;
+			buildPhases = (
+				45FDB44B1C1EFA7700BC0F84 /* Sources */,
+				45FDB44C1C1EFA7700BC0F84 /* Frameworks */,
+				45FDB44D1C1EFA7700BC0F84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45FDB4511C1EFA7700BC0F84 /* PBXTargetDependency */,
+			);
+			name = "Retetet NdonaTests";
+			productName = "Retetet NdonaTests";
+			productReference = 45FDB44F1C1EFA7700BC0F84 /* Retetet NdonaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		45FDB4591C1EFA7700BC0F84 /* Retetet NdonaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45FDB4691C1EFA7700BC0F84 /* Build configuration list for PBXNativeTarget "Retetet NdonaUITests" */;
+			buildPhases = (
+				45FDB4561C1EFA7700BC0F84 /* Sources */,
+				45FDB4571C1EFA7700BC0F84 /* Frameworks */,
+				45FDB4581C1EFA7700BC0F84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45FDB45C1C1EFA7700BC0F84 /* PBXTargetDependency */,
+			);
+			name = "Retetet NdonaUITests";
+			productName = "Retetet NdonaUITests";
+			productReference = 45FDB45A1C1EFA7700BC0F84 /* Retetet NdonaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45FDB4301C1EFA7600BC0F84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Banu Antoro";
+				TargetAttributes = {
+					45FDB4371C1EFA7700BC0F84 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					45FDB44E1C1EFA7700BC0F84 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 45FDB4371C1EFA7700BC0F84;
+					};
+					45FDB4591C1EFA7700BC0F84 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 45FDB4371C1EFA7700BC0F84;
+					};
+				};
+			};
+			buildConfigurationList = 45FDB4331C1EFA7600BC0F84 /* Build configuration list for PBXProject "Retetet Ndona" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45FDB42F1C1EFA7600BC0F84;
+			productRefGroup = 45FDB4391C1EFA7700BC0F84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45FDB4371C1EFA7700BC0F84 /* Retetet Ndona */,
+				45FDB44E1C1EFA7700BC0F84 /* Retetet NdonaTests */,
+				45FDB4591C1EFA7700BC0F84 /* Retetet NdonaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45FDB4361C1EFA7700BC0F84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45FDB4491C1EFA7700BC0F84 /* LaunchScreen.storyboard in Resources */,
+				45FDB4461C1EFA7700BC0F84 /* Assets.xcassets in Resources */,
+				45FDB4411C1EFA7700BC0F84 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45FDB44D1C1EFA7700BC0F84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45FDB4581C1EFA7700BC0F84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45FDB4341C1EFA7700BC0F84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45FDB43E1C1EFA7700BC0F84 /* ViewController.swift in Sources */,
+				45FDB43C1C1EFA7700BC0F84 /* AppDelegate.swift in Sources */,
+				45FDB4441C1EFA7700BC0F84 /* Retetet_Ndona.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45FDB44B1C1EFA7700BC0F84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45FDB4541C1EFA7700BC0F84 /* Retetet_NdonaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45FDB4561C1EFA7700BC0F84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45FDB45F1C1EFA7700BC0F84 /* Retetet_NdonaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45FDB4511C1EFA7700BC0F84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45FDB4371C1EFA7700BC0F84 /* Retetet Ndona */;
+			targetProxy = 45FDB4501C1EFA7700BC0F84 /* PBXContainerItemProxy */;
+		};
+		45FDB45C1C1EFA7700BC0F84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45FDB4371C1EFA7700BC0F84 /* Retetet Ndona */;
+			targetProxy = 45FDB45B1C1EFA7700BC0F84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45FDB43F1C1EFA7700BC0F84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45FDB4401C1EFA7700BC0F84 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		45FDB4471C1EFA7700BC0F84 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45FDB4481C1EFA7700BC0F84 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45FDB4611C1EFA7700BC0F84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45FDB4621C1EFA7700BC0F84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45FDB4641C1EFA7700BC0F84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Retetet Ndona/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "id.web.banu.Retetet-Ndona";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		45FDB4651C1EFA7700BC0F84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Retetet Ndona/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "id.web.banu.Retetet-Ndona";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		45FDB4671C1EFA7700BC0F84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Retetet NdonaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "id.web.banu.Retetet-NdonaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Retetet Ndona.app/Retetet Ndona";
+			};
+			name = Debug;
+		};
+		45FDB4681C1EFA7700BC0F84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Retetet NdonaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "id.web.banu.Retetet-NdonaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Retetet Ndona.app/Retetet Ndona";
+			};
+			name = Release;
+		};
+		45FDB46A1C1EFA7700BC0F84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Retetet NdonaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "id.web.banu.Retetet-NdonaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Retetet Ndona";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		45FDB46B1C1EFA7700BC0F84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Retetet NdonaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "id.web.banu.Retetet-NdonaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Retetet Ndona";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45FDB4331C1EFA7600BC0F84 /* Build configuration list for PBXProject "Retetet Ndona" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45FDB4611C1EFA7700BC0F84 /* Debug */,
+				45FDB4621C1EFA7700BC0F84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45FDB4631C1EFA7700BC0F84 /* Build configuration list for PBXNativeTarget "Retetet Ndona" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45FDB4641C1EFA7700BC0F84 /* Debug */,
+				45FDB4651C1EFA7700BC0F84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		45FDB4661C1EFA7700BC0F84 /* Build configuration list for PBXNativeTarget "Retetet NdonaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45FDB4671C1EFA7700BC0F84 /* Debug */,
+				45FDB4681C1EFA7700BC0F84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		45FDB4691C1EFA7700BC0F84 /* Build configuration list for PBXNativeTarget "Retetet NdonaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45FDB46A1C1EFA7700BC0F84 /* Debug */,
+				45FDB46B1C1EFA7700BC0F84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		45FDB4421C1EFA7700BC0F84 /* Retetet_Ndona.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				45FDB4431C1EFA7700BC0F84 /* Retetet_Ndona.xcdatamodel */,
+			);
+			currentVersion = 45FDB4431C1EFA7700BC0F84 /* Retetet_Ndona.xcdatamodel */;
+			path = Retetet_Ndona.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 45FDB4301C1EFA7600BC0F84 /* Project object */;
+}
