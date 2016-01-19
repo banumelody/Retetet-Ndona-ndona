@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		451CAE5A1C4A81C600E87877 /* motor_jay-A-1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 451CAE4A1C4A81C600E87877 /* motor_jay-A-1.wav */; };
+		451CAE5B1C4A81C600E87877 /* motor_jay-A-2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 451CAE4B1C4A81C600E87877 /* motor_jay-A-2.wav */; };
+		451CAE5C1C4A81C600E87877 /* motor_jay-A-3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 451CAE4C1C4A81C600E87877 /* motor_jay-A-3.wav */; };
+		451CAE5D1C4A81C600E87877 /* motor_jay-A-4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 451CAE4D1C4A81C600E87877 /* motor_jay-A-4.wav */; };
+		451CAE5E1C4A81C600E87877 /* motor_jay-B-1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 451CAE4E1C4A81C600E87877 /* motor_jay-B-1.wav */; };
+		451CAE5F1C4A81C600E87877 /* motor_jay-B-2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 451CAE4F1C4A81C600E87877 /* motor_jay-B-2.wav */; };
+		451CAE601C4A81C600E87877 /* motor_jay-B-3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 451CAE501C4A81C600E87877 /* motor_jay-B-3.wav */; };
+		451CAE611C4A81C600E87877 /* motor_jay-B-4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 451CAE511C4A81C600E87877 /* motor_jay-B-4.wav */; };
+		451CAE621C4A81C600E87877 /* motor_jay-C-1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 451CAE521C4A81C600E87877 /* motor_jay-C-1.wav */; };
+		451CAE631C4A81C600E87877 /* motor_jay-C-2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 451CAE531C4A81C600E87877 /* motor_jay-C-2.wav */; };
+		451CAE641C4A81C600E87877 /* motor_jay-C-3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 451CAE541C4A81C600E87877 /* motor_jay-C-3.wav */; };
+		451CAE651C4A81C600E87877 /* motor_jay-C-4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 451CAE551C4A81C600E87877 /* motor_jay-C-4.wav */; };
+		451CAE661C4A81C600E87877 /* motor_jay-D-1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 451CAE561C4A81C600E87877 /* motor_jay-D-1.wav */; };
+		451CAE671C4A81C600E87877 /* motor_jay-D-2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 451CAE571C4A81C600E87877 /* motor_jay-D-2.wav */; };
+		451CAE681C4A81C600E87877 /* motor_jay-D-3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 451CAE581C4A81C600E87877 /* motor_jay-D-3.wav */; };
+		451CAE691C4A81C600E87877 /* motor_jay-D-4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 451CAE591C4A81C600E87877 /* motor_jay-D-4.wav */; };
+		45ABD79F1C4C5CFF006BB5E8 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45ABD79D1C4C5CFF006BB5E8 /* Fabric.framework */; };
+		45ABD7A01C4C5CFF006BB5E8 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45ABD79E1C4C5CFF006BB5E8 /* Crashlytics.framework */; };
 		45FDB43C1C1EFA7700BC0F84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FDB43B1C1EFA7700BC0F84 /* AppDelegate.swift */; };
 		45FDB43E1C1EFA7700BC0F84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FDB43D1C1EFA7700BC0F84 /* ViewController.swift */; };
 		45FDB4411C1EFA7700BC0F84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45FDB43F1C1EFA7700BC0F84 /* Main.storyboard */; };
@@ -15,6 +33,11 @@
 		45FDB4491C1EFA7700BC0F84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45FDB4471C1EFA7700BC0F84 /* LaunchScreen.storyboard */; };
 		45FDB4541C1EFA7700BC0F84 /* Retetet_NdonaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FDB4531C1EFA7700BC0F84 /* Retetet_NdonaTests.swift */; };
 		45FDB45F1C1EFA7700BC0F84 /* Retetet_NdonaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FDB45E1C1EFA7700BC0F84 /* Retetet_NdonaUITests.swift */; };
+		45FDB4711C1F22D200BC0F84 /* motorcycle-start-and-revs-02.wav in Resources */ = {isa = PBXBuildFile; fileRef = 45FDB4701C1F22D200BC0F84 /* motorcycle-start-and-revs-02.wav */; };
+		45FDB4751C1F39F300BC0F84 /* RDButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FDB4741C1F39F300BC0F84 /* RDButton.swift */; };
+		45FDB4771C1F4E6900BC0F84 /* train-whistle-01.wav in Resources */ = {isa = PBXBuildFile; fileRef = 45FDB4761C1F4E6900BC0F84 /* train-whistle-01.wav */; };
+		45FDB4791C1F4E8B00BC0F84 /* grass-trimmer-1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 45FDB4781C1F4E8B00BC0F84 /* grass-trimmer-1.wav */; };
+		45FDB47B1C1F4EC100BC0F84 /* bell-ring-01.wav in Resources */ = {isa = PBXBuildFile; fileRef = 45FDB47A1C1F4EC100BC0F84 /* bell-ring-01.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +58,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		451CAE4A1C4A81C600E87877 /* motor_jay-A-1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "motor_jay-A-1.wav"; sourceTree = "<group>"; };
+		451CAE4B1C4A81C600E87877 /* motor_jay-A-2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "motor_jay-A-2.wav"; sourceTree = "<group>"; };
+		451CAE4C1C4A81C600E87877 /* motor_jay-A-3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "motor_jay-A-3.wav"; sourceTree = "<group>"; };
+		451CAE4D1C4A81C600E87877 /* motor_jay-A-4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "motor_jay-A-4.wav"; sourceTree = "<group>"; };
+		451CAE4E1C4A81C600E87877 /* motor_jay-B-1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "motor_jay-B-1.wav"; sourceTree = "<group>"; };
+		451CAE4F1C4A81C600E87877 /* motor_jay-B-2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "motor_jay-B-2.wav"; sourceTree = "<group>"; };
+		451CAE501C4A81C600E87877 /* motor_jay-B-3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "motor_jay-B-3.wav"; sourceTree = "<group>"; };
+		451CAE511C4A81C600E87877 /* motor_jay-B-4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "motor_jay-B-4.wav"; sourceTree = "<group>"; };
+		451CAE521C4A81C600E87877 /* motor_jay-C-1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "motor_jay-C-1.wav"; sourceTree = "<group>"; };
+		451CAE531C4A81C600E87877 /* motor_jay-C-2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "motor_jay-C-2.wav"; sourceTree = "<group>"; };
+		451CAE541C4A81C600E87877 /* motor_jay-C-3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "motor_jay-C-3.wav"; sourceTree = "<group>"; };
+		451CAE551C4A81C600E87877 /* motor_jay-C-4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "motor_jay-C-4.wav"; sourceTree = "<group>"; };
+		451CAE561C4A81C600E87877 /* motor_jay-D-1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "motor_jay-D-1.wav"; sourceTree = "<group>"; };
+		451CAE571C4A81C600E87877 /* motor_jay-D-2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "motor_jay-D-2.wav"; sourceTree = "<group>"; };
+		451CAE581C4A81C600E87877 /* motor_jay-D-3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "motor_jay-D-3.wav"; sourceTree = "<group>"; };
+		451CAE591C4A81C600E87877 /* motor_jay-D-4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "motor_jay-D-4.wav"; sourceTree = "<group>"; };
+		45ABD79D1C4C5CFF006BB5E8 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		45ABD79E1C4C5CFF006BB5E8 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		45FDB4381C1EFA7700BC0F84 /* Retetet Ndona.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Retetet Ndona.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45FDB43B1C1EFA7700BC0F84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45FDB43D1C1EFA7700BC0F84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +90,11 @@
 		45FDB45A1C1EFA7700BC0F84 /* Retetet NdonaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Retetet NdonaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45FDB45E1C1EFA7700BC0F84 /* Retetet_NdonaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Retetet_NdonaUITests.swift; sourceTree = "<group>"; };
 		45FDB4601C1EFA7700BC0F84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45FDB4701C1F22D200BC0F84 /* motorcycle-start-and-revs-02.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "motorcycle-start-and-revs-02.wav"; sourceTree = "<group>"; };
+		45FDB4741C1F39F300BC0F84 /* RDButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RDButton.swift; sourceTree = "<group>"; };
+		45FDB4761C1F4E6900BC0F84 /* train-whistle-01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "train-whistle-01.wav"; sourceTree = "<group>"; };
+		45FDB4781C1F4E8B00BC0F84 /* grass-trimmer-1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "grass-trimmer-1.wav"; sourceTree = "<group>"; };
+		45FDB47A1C1F4EC100BC0F84 /* bell-ring-01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "bell-ring-01.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +102,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45ABD7A01C4C5CFF006BB5E8 /* Crashlytics.framework in Frameworks */,
+				45ABD79F1C4C5CFF006BB5E8 /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,9 +124,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		451CAE491C4A81C600E87877 /* audioretetetndonandona */ = {
+			isa = PBXGroup;
+			children = (
+				451CAE4A1C4A81C600E87877 /* motor_jay-A-1.wav */,
+				451CAE4B1C4A81C600E87877 /* motor_jay-A-2.wav */,
+				451CAE4C1C4A81C600E87877 /* motor_jay-A-3.wav */,
+				451CAE4D1C4A81C600E87877 /* motor_jay-A-4.wav */,
+				451CAE4E1C4A81C600E87877 /* motor_jay-B-1.wav */,
+				451CAE4F1C4A81C600E87877 /* motor_jay-B-2.wav */,
+				451CAE501C4A81C600E87877 /* motor_jay-B-3.wav */,
+				451CAE511C4A81C600E87877 /* motor_jay-B-4.wav */,
+				451CAE521C4A81C600E87877 /* motor_jay-C-1.wav */,
+				451CAE531C4A81C600E87877 /* motor_jay-C-2.wav */,
+				451CAE541C4A81C600E87877 /* motor_jay-C-3.wav */,
+				451CAE551C4A81C600E87877 /* motor_jay-C-4.wav */,
+				451CAE561C4A81C600E87877 /* motor_jay-D-1.wav */,
+				451CAE571C4A81C600E87877 /* motor_jay-D-2.wav */,
+				451CAE581C4A81C600E87877 /* motor_jay-D-3.wav */,
+				451CAE591C4A81C600E87877 /* motor_jay-D-4.wav */,
+			);
+			path = audioretetetndonandona;
+			sourceTree = "<group>";
+		};
 		45FDB42F1C1EFA7600BC0F84 = {
 			isa = PBXGroup;
 			children = (
+				45ABD79D1C4C5CFF006BB5E8 /* Fabric.framework */,
+				45ABD79E1C4C5CFF006BB5E8 /* Crashlytics.framework */,
 				45FDB43A1C1EFA7700BC0F84 /* Retetet Ndona */,
 				45FDB4521C1EFA7700BC0F84 /* Retetet NdonaTests */,
 				45FDB45D1C1EFA7700BC0F84 /* Retetet NdonaUITests */,
@@ -106,6 +179,12 @@
 				45FDB4471C1EFA7700BC0F84 /* LaunchScreen.storyboard */,
 				45FDB44A1C1EFA7700BC0F84 /* Info.plist */,
 				45FDB4421C1EFA7700BC0F84 /* Retetet_Ndona.xcdatamodeld */,
+				45FDB4761C1F4E6900BC0F84 /* train-whistle-01.wav */,
+				45FDB4701C1F22D200BC0F84 /* motorcycle-start-and-revs-02.wav */,
+				45FDB4781C1F4E8B00BC0F84 /* grass-trimmer-1.wav */,
+				45FDB47A1C1F4EC100BC0F84 /* bell-ring-01.wav */,
+				45FDB4741C1F39F300BC0F84 /* RDButton.swift */,
+				451CAE491C4A81C600E87877 /* audioretetetndonandona */,
 			);
 			path = "Retetet Ndona";
 			sourceTree = "<group>";
@@ -138,6 +217,7 @@
 				45FDB4341C1EFA7700BC0F84 /* Sources */,
 				45FDB4351C1EFA7700BC0F84 /* Frameworks */,
 				45FDB4361C1EFA7700BC0F84 /* Resources */,
+				45ABD78C1C4C5A80006BB5E8 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -232,9 +312,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				451CAE681C4A81C600E87877 /* motor_jay-D-3.wav in Resources */,
+				45FDB4711C1F22D200BC0F84 /* motorcycle-start-and-revs-02.wav in Resources */,
+				451CAE631C4A81C600E87877 /* motor_jay-C-2.wav in Resources */,
+				451CAE5D1C4A81C600E87877 /* motor_jay-A-4.wav in Resources */,
+				451CAE641C4A81C600E87877 /* motor_jay-C-3.wav in Resources */,
 				45FDB4491C1EFA7700BC0F84 /* LaunchScreen.storyboard in Resources */,
+				451CAE691C4A81C600E87877 /* motor_jay-D-4.wav in Resources */,
+				45FDB4791C1F4E8B00BC0F84 /* grass-trimmer-1.wav in Resources */,
+				451CAE5C1C4A81C600E87877 /* motor_jay-A-3.wav in Resources */,
+				45FDB4771C1F4E6900BC0F84 /* train-whistle-01.wav in Resources */,
+				451CAE611C4A81C600E87877 /* motor_jay-B-4.wav in Resources */,
+				451CAE5E1C4A81C600E87877 /* motor_jay-B-1.wav in Resources */,
+				451CAE5F1C4A81C600E87877 /* motor_jay-B-2.wav in Resources */,
 				45FDB4461C1EFA7700BC0F84 /* Assets.xcassets in Resources */,
+				451CAE661C4A81C600E87877 /* motor_jay-D-1.wav in Resources */,
+				451CAE5A1C4A81C600E87877 /* motor_jay-A-1.wav in Resources */,
+				451CAE601C4A81C600E87877 /* motor_jay-B-3.wav in Resources */,
+				451CAE5B1C4A81C600E87877 /* motor_jay-A-2.wav in Resources */,
+				45FDB47B1C1F4EC100BC0F84 /* bell-ring-01.wav in Resources */,
 				45FDB4411C1EFA7700BC0F84 /* Main.storyboard in Resources */,
+				451CAE671C4A81C600E87877 /* motor_jay-D-2.wav in Resources */,
+				451CAE621C4A81C600E87877 /* motor_jay-C-1.wav in Resources */,
+				451CAE651C4A81C600E87877 /* motor_jay-C-4.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +354,22 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		45ABD78C1C4C5A80006BB5E8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 28bdeb0e2792659b68e997596b07f6f974aa7dc7 f9401cd931c56410b71f19d31d2dee6305fb03091d6c8bce1f1fd1d2bb5348d9";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		45FDB4341C1EFA7700BC0F84 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +377,7 @@
 			files = (
 				45FDB43E1C1EFA7700BC0F84 /* ViewController.swift in Sources */,
 				45FDB43C1C1EFA7700BC0F84 /* AppDelegate.swift in Sources */,
+				45FDB4751C1F39F300BC0F84 /* RDButton.swift in Sources */,
 				45FDB4441C1EFA7700BC0F84 /* Retetet_Ndona.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -403,10 +520,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Retetet Ndona/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "id.web.banu.Retetet-Ndona";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -414,10 +536,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Retetet Ndona/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "id.web.banu.Retetet-Ndona";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -488,6 +615,7 @@
 				45FDB4651C1EFA7700BC0F84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		45FDB4661C1EFA7700BC0F84 /* Build configuration list for PBXNativeTarget "Retetet NdonaTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +624,7 @@
 				45FDB4681C1EFA7700BC0F84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		45FDB4691C1EFA7700BC0F84 /* Build configuration list for PBXNativeTarget "Retetet NdonaUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +633,7 @@
 				45FDB46B1C1EFA7700BC0F84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
