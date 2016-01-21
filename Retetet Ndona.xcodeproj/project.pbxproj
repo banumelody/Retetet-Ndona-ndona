@@ -33,11 +33,7 @@
 		45FDB4491C1EFA7700BC0F84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45FDB4471C1EFA7700BC0F84 /* LaunchScreen.storyboard */; };
 		45FDB4541C1EFA7700BC0F84 /* Retetet_NdonaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FDB4531C1EFA7700BC0F84 /* Retetet_NdonaTests.swift */; };
 		45FDB45F1C1EFA7700BC0F84 /* Retetet_NdonaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FDB45E1C1EFA7700BC0F84 /* Retetet_NdonaUITests.swift */; };
-		45FDB4711C1F22D200BC0F84 /* motorcycle-start-and-revs-02.wav in Resources */ = {isa = PBXBuildFile; fileRef = 45FDB4701C1F22D200BC0F84 /* motorcycle-start-and-revs-02.wav */; };
 		45FDB4751C1F39F300BC0F84 /* RDButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FDB4741C1F39F300BC0F84 /* RDButton.swift */; };
-		45FDB4771C1F4E6900BC0F84 /* train-whistle-01.wav in Resources */ = {isa = PBXBuildFile; fileRef = 45FDB4761C1F4E6900BC0F84 /* train-whistle-01.wav */; };
-		45FDB4791C1F4E8B00BC0F84 /* grass-trimmer-1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 45FDB4781C1F4E8B00BC0F84 /* grass-trimmer-1.wav */; };
-		45FDB47B1C1F4EC100BC0F84 /* bell-ring-01.wav in Resources */ = {isa = PBXBuildFile; fileRef = 45FDB47A1C1F4EC100BC0F84 /* bell-ring-01.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,11 +86,7 @@
 		45FDB45A1C1EFA7700BC0F84 /* Retetet NdonaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Retetet NdonaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45FDB45E1C1EFA7700BC0F84 /* Retetet_NdonaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Retetet_NdonaUITests.swift; sourceTree = "<group>"; };
 		45FDB4601C1EFA7700BC0F84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		45FDB4701C1F22D200BC0F84 /* motorcycle-start-and-revs-02.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "motorcycle-start-and-revs-02.wav"; sourceTree = "<group>"; };
 		45FDB4741C1F39F300BC0F84 /* RDButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RDButton.swift; sourceTree = "<group>"; };
-		45FDB4761C1F4E6900BC0F84 /* train-whistle-01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "train-whistle-01.wav"; sourceTree = "<group>"; };
-		45FDB4781C1F4E8B00BC0F84 /* grass-trimmer-1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "grass-trimmer-1.wav"; sourceTree = "<group>"; };
-		45FDB47A1C1F4EC100BC0F84 /* bell-ring-01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "bell-ring-01.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,10 +171,6 @@
 				45FDB4471C1EFA7700BC0F84 /* LaunchScreen.storyboard */,
 				45FDB44A1C1EFA7700BC0F84 /* Info.plist */,
 				45FDB4421C1EFA7700BC0F84 /* Retetet_Ndona.xcdatamodeld */,
-				45FDB4761C1F4E6900BC0F84 /* train-whistle-01.wav */,
-				45FDB4701C1F22D200BC0F84 /* motorcycle-start-and-revs-02.wav */,
-				45FDB4781C1F4E8B00BC0F84 /* grass-trimmer-1.wav */,
-				45FDB47A1C1F4EC100BC0F84 /* bell-ring-01.wav */,
 				45FDB4741C1F39F300BC0F84 /* RDButton.swift */,
 				451CAE491C4A81C600E87877 /* audioretetetndonandona */,
 			);
@@ -276,6 +264,7 @@
 				TargetAttributes = {
 					45FDB4371C1EFA7700BC0F84 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = L36L3WSJF7;
 					};
 					45FDB44E1C1EFA7700BC0F84 = {
 						CreatedOnToolsVersion = 7.2;
@@ -313,15 +302,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				451CAE681C4A81C600E87877 /* motor_jay-D-3.wav in Resources */,
-				45FDB4711C1F22D200BC0F84 /* motorcycle-start-and-revs-02.wav in Resources */,
 				451CAE631C4A81C600E87877 /* motor_jay-C-2.wav in Resources */,
 				451CAE5D1C4A81C600E87877 /* motor_jay-A-4.wav in Resources */,
 				451CAE641C4A81C600E87877 /* motor_jay-C-3.wav in Resources */,
 				45FDB4491C1EFA7700BC0F84 /* LaunchScreen.storyboard in Resources */,
 				451CAE691C4A81C600E87877 /* motor_jay-D-4.wav in Resources */,
-				45FDB4791C1F4E8B00BC0F84 /* grass-trimmer-1.wav in Resources */,
 				451CAE5C1C4A81C600E87877 /* motor_jay-A-3.wav in Resources */,
-				45FDB4771C1F4E6900BC0F84 /* train-whistle-01.wav in Resources */,
 				451CAE611C4A81C600E87877 /* motor_jay-B-4.wav in Resources */,
 				451CAE5E1C4A81C600E87877 /* motor_jay-B-1.wav in Resources */,
 				451CAE5F1C4A81C600E87877 /* motor_jay-B-2.wav in Resources */,
@@ -330,7 +316,6 @@
 				451CAE5A1C4A81C600E87877 /* motor_jay-A-1.wav in Resources */,
 				451CAE601C4A81C600E87877 /* motor_jay-B-3.wav in Resources */,
 				451CAE5B1C4A81C600E87877 /* motor_jay-A-2.wav in Resources */,
-				45FDB47B1C1F4EC100BC0F84 /* bell-ring-01.wav in Resources */,
 				45FDB4411C1EFA7700BC0F84 /* Main.storyboard in Resources */,
 				451CAE671C4A81C600E87877 /* motor_jay-D-2.wav in Resources */,
 				451CAE621C4A81C600E87877 /* motor_jay-C-1.wav in Resources */,
@@ -520,6 +505,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -528,6 +515,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "id.web.banu.Retetet-Ndona";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -536,6 +524,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Banu Antoro (L36L3WSJF7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Banu Antoro (L36L3WSJF7)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -544,6 +534,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "id.web.banu.Retetet-Ndona";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
