@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15A279b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="OuS-cQ-nzw">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="OuS-cQ-nzw">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--Retetet Ndona-->
+        <!--Retetet Ndona-ndona-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Retetet_Ndona" customModuleProvider="target" sceneMemberID="viewController">
@@ -18,8 +18,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iS7-NF-jTr">
+                                <rect key="frame" x="0.0" y="64" width="667" height="33"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="QHh-Fn-LrA"/>
+                                </constraints>
+                            </view>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="AQV-Cu-on3">
-                                <rect key="frame" x="20" y="64" width="627" height="29"/>
+                                <rect key="frame" x="20" y="66" width="627" height="29"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="28" id="wd3-Re-auJ"/>
                                 </constraints>
@@ -34,22 +42,25 @@
                                 </connections>
                             </segmentedControl>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NNc-jI-CbU">
-                                <rect key="frame" x="148" y="100" width="499" height="267"/>
+                                <rect key="frame" x="20" y="100" width="627" height="267"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="NNc-jI-CbU" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="3Iw-Ed-8aP"/>
-                            <constraint firstItem="NNc-jI-CbU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="128" id="6Gq-Ks-zvC"/>
-                            <constraint firstItem="NNc-jI-CbU" firstAttribute="top" secondItem="AQV-Cu-on3" secondAttribute="bottom" constant="8" id="E3W-2o-Lq3"/>
-                            <constraint firstItem="AQV-Cu-on3" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="J12-aM-58S"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="NNc-jI-CbU" secondAttribute="bottom" constant="8" id="TsJ-wp-RqJ"/>
+                            <constraint firstItem="AQV-Cu-on3" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="2" id="J12-aM-58S"/>
+                            <constraint firstItem="NNc-jI-CbU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="PM8-rc-rUC"/>
+                            <constraint firstItem="iS7-NF-jTr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="QZM-Eu-dLE"/>
+                            <constraint firstItem="NNc-jI-CbU" firstAttribute="top" secondItem="AQV-Cu-on3" secondAttribute="bottom" constant="6" id="T4j-rZ-iZ0"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="iS7-NF-jTr" secondAttribute="trailing" constant="-20" id="WiI-6X-p59"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="NNc-jI-CbU" secondAttribute="bottom" constant="8" id="c2p-rM-2rE"/>
+                            <constraint firstItem="NNc-jI-CbU" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="hOh-xX-1jf"/>
                             <constraint firstItem="AQV-Cu-on3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="mrI-OJ-Xd6"/>
                             <constraint firstItem="AQV-Cu-on3" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="oAy-s9-AJl"/>
+                            <constraint firstItem="iS7-NF-jTr" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="rkm-B5-Gts"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Retetet Ndona" id="GCj-Sd-Vf4"/>
+                    <navigationItem key="navigationItem" title="Retetet Ndona-ndona" id="GCj-Sd-Vf4"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>

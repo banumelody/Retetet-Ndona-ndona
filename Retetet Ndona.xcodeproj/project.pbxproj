@@ -511,7 +511,9 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
+				GENERATE_PROFILING_CODE = NO;
 				INFOPLIST_FILE = "Retetet Ndona/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "id.web.banu.Retetet-Ndona";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -530,12 +532,15 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
+				GENERATE_PROFILING_CODE = YES;
 				INFOPLIST_FILE = "Retetet Ndona/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "id.web.banu.Retetet-Ndona";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "f5befa05-7bba-451d-97b8-fec500f97fbb";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
 			};
 			name = Release;
 		};
